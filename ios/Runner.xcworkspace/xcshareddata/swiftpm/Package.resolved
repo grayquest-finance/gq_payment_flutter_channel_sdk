@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "gq_payment_ios_sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/grayquest-finance/gq_payment_ios_sdk/",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dbc61825aadf442d6c54ef205197beb42a4174f5"
+      }
+    }
+  ],
+  "version" : 2
+}

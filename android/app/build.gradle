@@ -35,9 +35,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        minSdkVersion 21
+        targetSdkVersion 32
         applicationId "com.grayquest.flutter.channel.gq_payment_flutter_channel_sdk"
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+//        minSdkVersion flutter.minSdkVersion
+//        targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -50,6 +52,11 @@ android {
         }
     }
 }
+
+dependencies {
+    implementation 'com.github.grayquest-finance:gq_payment_android_sdk:1.0.14-dev'
+}
+
 
 flutter {
     source '../..'
